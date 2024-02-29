@@ -1027,7 +1027,7 @@ body .application {
   position: absolute;
   top: 5px;
   width: 100%;
-  height: 30px;
+  height: 22px;
   left: 0;
   z-index: 101;
   display: -webkit-box;
@@ -1038,8 +1038,21 @@ body .application {
           justify-content: space-between;
 }
 .nav .right {
-  padding-right: 15px;
+  width: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4px;
+  padding-right: 10px;
 }
 .nav .right img {
-  width: 14px;
+  width: 12px;
+}
+.nav .right .battery-percent {
+  font-size: 5px;
+  color: white;
+  width: 12px;
 }
